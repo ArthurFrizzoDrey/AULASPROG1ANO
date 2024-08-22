@@ -1,0 +1,24 @@
+#exercicios
+#1- verifique se o número 100 está na tupla (1,2,3,100) e imprima uma mensagem adequada
+tuplacem= (1,2,3,100)
+if 100 in tuplacem:
+    print('O número 100 está na tupla')
+else:
+    print('O número cem não está na tupla')
+
+#2-  crie uma tupla com 3 omes e use uma codicioal para veriicar se ana está na tupla.
+tuplanomes= ('Rogério','Arthur','Vinicius')
+if "Ana" in tuplanomes:
+    print('O nome Ana está na tupla')
+else:
+    print('O nome Ana não está na tupla')
+
+
+#3- crie uma tupla com 5 valores numéricos. Verifique se o primeiro valor é maior que 10. se for, imprima maior que 10.
+tupla5valor= (20,5,10,40,500)
+if tupla5valor[0] > 10:
+    print('O primeiro valor é maior que 10')
+else:
+    print('O primeiro valor não é maior que 10')  
+
+
